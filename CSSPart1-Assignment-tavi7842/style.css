@@ -1,0 +1,42 @@
+h3 {
+  color: orange;
+  font-size: larger;
+}
+
+.csk {
+  color: brown;
+  font-size: medium;
+}
+#city{
+  background-color: skyblue;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Vjw,.hyd,.Vzg {
+  color: darkviolet;
+  line-height: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  
+}
+
+ul li{
+  background-color: yellow;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
