@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <style>
+      .enlarged-image {
+        width: 500px;
+        height: 500px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="image" src="image/Bitlabs logo.jpeg" width="100" alt="Car Image">
+    <div class="enlarged-image">
+      <img id="enlarged-image" src="image/Bitlabs logo.jpeg">
+      
+    </div>
+    <script>
+      const image = document.getElementById("image");
+      const enlargedImage = document.getElementById("enlarged-image");
+      const enlargedImageContainer = document.querySelector(".enlarged-image");
+
+      image.addEventListener("click", function() {
+        enlargedImage.src = image.src;
+        enlargedImageContainer.style.display = "block";
+      });
+    </script>
+  </body>
+</html>

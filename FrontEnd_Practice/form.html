@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <div>
+        <form>
+            <label for="name">First Name :</label>
+            <input type="text" name="name" id="name" placeholder="Enter the name" required>
+            <br>
+            <br>
+            <label for="name">Last Name :</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" value="@gmail.com">
+            <br>
+            <br>
+            <label for="address">Address :</label>
+            <textarea name="address" id="address" cols="65" rows="10"></textarea>
+            <br>
+            <br>
+            <fieldset>
+                <legend>
+                    <label for="gender">Gender</label>
+                </legend>
+                <input type="radio" name="gender" id="gender">Male
+                <input type="radio" name="gender" id="gender">Female
+                <input type="radio" name="gender" id="gender">Others  
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>
+                    <label for="language">Select the Language</label>
+                </legend>
+                <input type="checkbox" name="" id="" checked>Telugu
+                <input type="checkbox" name="" id="">English
+                <input type="checkbox" name="" id="">Hindi  
+            </fieldset>
+            <br>
+            <label for="Date">Select the Date of Birth :</label>
+            <input type="date" name="date" id="Date">
+            <br>
+            <br>
+            <label for="country">Select the State :</label>
+            <select>
+                <option value="#">Default</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Telangana">Telangana</option>
+            </select>
+            <br>
+            <br>
+            <label for="pincode">Pincode :</label>
+            <input type="number" name="pincode" id="pincode">
+            <br>
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <br>
+            <input type="reset" value="Reset">
+            <br>
+            <br>
+        <!-- <a href="./Login.html"> -->
+        <input type="submit" value="Submit">
+    <!-- </a> -->
+        </form>
+        
+    </div>
+</body>
+</html>

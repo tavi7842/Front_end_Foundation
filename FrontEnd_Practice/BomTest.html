@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- //<script src="Bom.js"></script> -->
+   <style>
+    h1{
+        text-align: center;
+    }
+    input{
+                background-color: brown;
+                color: aqua;
+                margin: 10px;
+                border: 10px;
+            }
+            div{
+                background-color: burlywood;
+                text-align: center;
+                border: 20px;
+                margin: 10px;
+                height: 500px;
+                width: 500px;
+            
+            }
+
+   </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>Caluclator</h1>
+        
+            <label for="no1">Enter the number1</label>
+      <input type="text" name="num1" id="no1">
+      <br>
+      <br>
+      <label for="no1">Enter the number2</label>
+      <input type="text" name="num2" id="no2">
+      <br>
+      <input type="submit" value="Add" onclick="add()">
+      
+      
+      <input type="submit" value="Sub" onclick="sub()">
+      
+      <input type="submit" value="Mul" onclick="mul()">
+     
+      <input type="submit" value="Div" onclick="div()">
+    </center>
+        </div>
+        
+    
+    
+   
+  <script>
+    function add(){
+        var n1 = document.getElementById("no1").value;
+        var n2 = document.getElementById("no2").value;
+        var sum = parseInt(n1)+parseInt(n2);
+        document.write(sum);  
+    }
+    function sub(){
+        var n1 = document.getElementById("no1").value;
+        var n2 = document.getElementById("no2").value;
+        var sub = parseInt(n1)-parseInt(n2);
+        document.write(sub);  
+    }
+    function mul(){
+        var n1 = document.getElementById("no1").value;
+        var n2 = document.getElementById("no2").value;
+        var mul = parseInt(n1)*parseInt(n2);
+        document.write(mul);  
+    }
+    function div(){
+        var n1 = document.getElementById("no1").value;
+        var n2 = document.getElementById("no2").value;
+        var div = parseInt(n1)/parseInt(n2);
+        document.write(div);  
+    }
+  </script>
+  <!-- //<input type="button" value="Test navigator" onclick="test()">   -->
+</body>
+</html>

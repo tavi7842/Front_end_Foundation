@@ -1,0 +1,37 @@
+<!-- Create a form that, when submitted, displays an alert message with the values of all the fields in the form. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Registration Form</h2>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname">
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname">
+        <br>
+        <br>
+        <label for="district">District:</label>
+        <input type="text" name="district" id="district">
+        <br>
+        <br>
+        <button id="submit" type="submit">Submit</button>
+        
+        <script>
+            document.getElementById("submit").addEventListener('click',funt);
+            function funt(){
+
+            }
+        </script>
+        
+    </form>
+</body>
+</html>

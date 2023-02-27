@@ -1,0 +1,10 @@
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+    font-size: small;
+  }
+
+  ul ~ li {
+    color: green;
+    font-weight: bold;
+  }

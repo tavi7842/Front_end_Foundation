@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bitLabs | Registration</title>
+</head>
+<body>
+    <h1>Registartion Details</h1>
+    <h6>Fields with * mark are mandatory to fill</h6>
+    <form>
+    <p>First Name: * <input type="text" name="F_name" id="F_name" required></p>
+    <p>Last Name: * <input type="text" name="L_name" id="L_name" required></p>
+    <fieldset>
+        <legend>Gender * </legend>
+            <p> 
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required  >        
+            </p>
+    </fieldset>  
+    <p>Address : 
+        <textarea name="address" id="address" cols="50" rows="4"></textarea></p> 
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <p>Email: * <input type="email" name="email" id="email" required></p>
+    <p>Date of Birth : * <input type="date" name="date" id="date" required></p>
+    <p> Country: 
+    <select>
+        <option value="">Select the Country</option>
+        <option value="India">India</option>
+        <option value="canada">Canada</option>
+        <option value="Australia">Australia</option>
+        <option value="Germany">Germany</option>
+        <option value="China">China</option>
+    </p>
+    </select>
+    <br>
+    <br> 
+    <input type="reset" value="Reset">
+</form>
+<a href="Login.html">
+    <input type = "Submit" value="Submit"></a>
+</body>
+</html>

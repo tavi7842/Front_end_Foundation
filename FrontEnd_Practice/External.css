@@ -1,0 +1,63 @@
+
+/* .Ele {
+    color : rgb(182, 13, 58);
+    font-weight : bold;
+}
+
+h2,h3,h4,h5 {
+    color: brown;
+    font-style: oblique;
+}
+
+#vi {
+    color: rgb(150, 23, 144);
+    font-style: italic;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* visited link */
+  /* a:visited {
+    color: rgb(216, 20, 197);
+  } */
+  
+  /* mouse over link */
+  /* a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  /* a:active {
+    color: yellow;
+  } */ 
+
+   /* .Vinay{
+    background-color: blue;
+    background-repeat: none;
+    background-size: 100%;
+    background-image: url("https://images.unsplash.com/photo-1617440168937-c6497eaa8db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  }  */
+
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-size: larger;
+    font-weight: bold;
+    background-color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  #Visualize {
+    text-indent: 35px;
+    line-height: 20px;
+    word-spacing: 15px;
+  }
+  h3 {
+    text-shadow: 2px 2px 1px brown;
+    font-size: xx-large;
+  }
